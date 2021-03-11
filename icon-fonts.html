@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+    <title>icon-fonts</title>
+    <style>
+        @font-face {
+            font-family: 'icomoon';
+            /* src: url('fonts/icomoon.eot?ois9c4'); */
+            src: url("fonts/icomoon.eot") format('embedded-opentype'),
+                url("fonts/icomoon.ttf") format('truetype'),
+                url("fonts/icomoon.woff") format('woff'),
+                url("fonts/icomoon.svg") format('svg');
+            font-weight: normal;
+            font-style: normal;
+            font-display: block;
+        }
+
+        [class^="icon-"],
+        [class*=" icon-"] {
+            /* use !important to prevent issues with browser extensions that change fonts */
+            font-family: 'icomoon' !important;
+            /* speak: never; */
+            font-style: normal;
+            font-weight: normal;
+            font-variant: normal;
+            text-transform: none;
+            line-height: 1;
+
+            /* Better Font Rendering =========== */
+            -webkit-font-smoothing: antialiased;
+            -moz-osx-font-smoothing: grayscale;
+        }
+
+        .icon-home:before {
+            content: "\e900";
+        }
+
+        .icon-images:before {
+            content: "\e90e";
+        }
+
+        .icon-music:before {
+            content: "\e911";
+        }
+
+        .icon-film:before {
+            content: "\e913";
+        }
+
+        .icon-user:before {
+            content: "\e971";
+        }
+
+        .icon-cogs:before {
+            content: "\e995";
+        }
+
+        .icon-download3:before {
+            content: "\e9c7";
+        }
+
+        .icon-google-plus:before {
+            content: "\ea8b";
+        }
+
+        .icon-facebook:before {
+            content: "\ea90";
+        }
+
+        .icon-twitter:before {
+            content: "\ea96";
+        }
+
+        .icon-rss:before {
+            content: "\ea9b";
+        }
+
+        .icon-steam2:before {
+            content: "\eaad";
+        }
+
+        .icon-github:before {
+            content: "\eab0";
+        }
+
+        .icon-appleinc:before {
+            content: "\eabe";
+        }
+
+        .icon-windows8:before {
+            content: "\eac2";
+        }
+
+        .icon-skype:before {
+            content: "\eac5";
+        }
+
+        .icon-pinterest:before {
+            content: "\ead1";
+        }
+
+        .icon-chrome:before {
+            content: "\ead9";
+        }
+
+        .icon-firefox:before {
+            content: "\eada";
+        }
+
+        .icon-IE:before {
+            content: "\eadb";
+        }
+
+        .icon-safari:before {
+            content: "\eadd";
+        }
+
+        .icon-opera:before {
+            content: "\eade";
+        }
+
+        .icon-html-five2:before {
+            content: "\eae5";
+        }
+
+        .icon-css3:before {
+            content: "\eae6";
+        }
+
+        body,
+        html {
+            margin: 0;
+            padding: 0;
+            background-color: #ccc;
+            font-size: 12px;
+            font-family: 'Open Sans', sans-serif;
+        }
+
+        .main-container {
+            max-width: 900px;
+            position: absolute;
+            left: 0;
+            right: 0;
+            margin: 0 auto;
+            padding: 0 20px;
+
+        }
+
+        h1 {
+            text-align: center;
+        }
+
+        ul {
+            padding: 0 38px;
+        }
+
+        li {
+            list-style-type: none;
+            display: inline-block;
+            background-color: #ffa526;
+            width: 200px;
+
+            margin: 3px 0px;
+            height: 50px;
+            border-radius: 5px;
+            box-shadow: 0px 4px 1px rgb(0 0 0 / 30%);
+        }
+
+        span {
+            background-color: #3F3F3F;
+            padding: 10px;
+            display: inline-block;
+            border-radius: 5px 0 0 5px;
+        }
+
+        li a {
+            text-decoration: none;
+            display: block;
+            color: #fff;
+        }
+
+        .icon {
+            color: #fff;
+            font-size: 30px;
+        }
+
+        li:nth-child(22) span.icon {
+            width: 30px;
+        }
+
+        p {
+            margin: 0;
+        }
+
+        .text-box {
+            display: inline-block;
+        }
+
+        @media (max-width: 800px) {
+            li {
+                width: 45%;
+                margin: 3px 10px;
+                ;
+            }
+        }
+
+        @media (max-width: 570px) {
+            li {
+                width: 80%;
+                display: block;
+                margin: 3px auto;
+
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="main-container">
+        <h1>КНОПКИ С ИСПОЛЬЗОВАНИЕМ ИКОНИЧЕСКИХ ШРИФТОВ</h1>
+        <ul>
+            <li>
+                <a href="#" target="_blank"><span class="icon-facebook icon"></span>
+                    <div class="text-box">
+                        <p>Facebook</p>
+                        <p>Посетить Facebook</p>
+                    </div>
+                </a>
+            </li>
+            <li><a href="#" target="_blank"><span class="icon-twitter icon"></span>
+                    <div class="text-box">
+                        <p>Twitter</p>
+                        <p>Посетить Twitter</p>
+                    </div>
+                </a></li>
+            <li><a href="#" target="_blank"><span class="icon-google-plus icon"></span>
+                    <div class="text-box">
+                        <p>Google</p>
+                        <p>Посетить Google</p>
+                    </div>
+                </a></li>
+            <li><a href="#" target="_blank"><span class="icon-pinterest icon"></span>
+                    <div class="text-box">
+                        <p>Pinterest</p>
+                        <p>Посетить Pinterest</p>
+                    </div>
+                </a></li>
+            <li><a href="#" target="_blank"><span class="icon-windows8 icon"></span>
+                    <div class="text-box">
+                        <p>Windows 8</p>
+                        <p>Microsoft Windows 8</p>
+                    </div>
+                </a></li>
+            <li><a href="#" target="_blank"><span class="icon-github icon"></span>
+                    <div class="text-box">
+                        <p>Github</p>
+                        <p>Посетить Github</p>
+                    </div>
+                </a></li>
+            <li><a href="#" target="_blank"><span class="icon-css3 icon"></span>
+                    <div class="text-box">
+                        <p>CSS3</p>
+                        <p>Взгляните на CSS3</p>
+                    </div>
+                </a></li>
+            <li><a href="#" target="_blank"><span class="icon-html-five2 icon"></span>
+                    <div class="text-box">
+                        <p>HTML5</p>
+                        <p>Узрите HTML5</p>
+                    </div>
+                </a></li>
+            <li><a href="#" target="_blank"><span class="icon-rss icon"></span>
+                    <div class="text-box">
+                        <p>RSS</p>
+                        <p>Подпишитесь на RSS</p>
+                    </div>
+                </a></li>
+            <li><a href="#" target="_blank"><span class="icon-cogs icon"></span>
+                    <div class="text-box">
+                        <p>Настройки</p>
+                        <p>Перейти к настройкам</p>
+                    </div>
+                </a></li>
+            <li><a href="#" target="_blank"><span class="icon-home icon"></span>
+                    <div class="text-box">
+                        <p>Главная</p>
+                        <p>На главную страницу</p>
+                    </div>
+                </a></li>
+            <li><a href="#" target="_blank"><span class="icon-download3 icon"></span>
+                    <div class="text-box">
+                        <p>Скачать</p>
+                        <p>Размер 32.4кб</p>
+                    </div>
+                </a></li>
+            <li><a href="#" target="_blank"><span class="icon-skype icon"></span>
+                    <div class="text-box">
+                        <p>Skype</p>
+                        <p>Позвонить по Skype</p>
+                    </div>
+                </a></li>
+            <li><a href="#" target="_blank"><span class="icon-IE icon"></span>
+                    <div class="text-box">
+                        <p>Explorer 10</p>
+                        <p>Установить IE 10</p>
+                    </div>
+                </a></li>
+            <li><a href="#" target="_blank"><span class="icon-chrome icon"></span>
+                    <div class="text-box">
+                        <p>Google Chrome</p>
+                        <p>Установить Chrome</p>
+                    </div>
+                </a></li>
+            <li><a href="#" target="_blank"><span class="icon-firefox icon"></span>
+                    <div class="text-box">
+                        <p>Mozilla Firefox</p>
+                        <p>Установить Firefox</p>
+                    </div>
+                </a></li>
+            <li><a href="#" target="_blank"><span class="icon-opera icon"></span>
+                    <div class="text-box">
+                        <p>Opera</p>
+                        <p>Установить Opera</p>
+                    </div>
+                </a></li>
+            <li><a href="#" target="_blank"><span class="icon-safari icon"></span>
+                    <div class="text-box">
+                        <p>Apple Safari</p>
+                        <p>Установить Safari</p>
+                    </div>
+                </a></li>
+            <li><a href="#" target="_blank"><span class="icon-steam2 icon"></span>
+                    <div class="text-box">
+                        <p>Steam клиент</p>
+                        <p>Установить Steam</p>
+                    </div>
+                </a></li>
+            <li><a href="#" target="_blank"><span class="icon-appleinc icon"></span>
+                    <div class="text-box">
+                        <p>Apple</p>
+                        <p>Перейти на сайт</p>
+                    </div>
+                </a></li>
+            <li><a href="#" target="_blank"><span class="icon-film icon"></span>
+                    <div class="text-box">
+                        <p>Видеозаписи</p>
+                        <p>Просмотреть видео</p>
+                    </div>
+                </a></li>
+            <li><a href="#" target="_blank"><span class="icon-images icon"></span>
+                    <div class="text-box">
+                        <p>Галерея</p>
+                        <p>Просмотреть галерею</p>
+                    </div>
+                </a></li>
+            <li><a href="#" target="_blank"><span class="icon-music icon"></span>
+                    <div class="text-box">
+                        <p>Аудиозаписи</p>
+                        <p>Прослушать аудио</p>
+                    </div>
+                </a></li>
+            <li><a href="#" target="_blank"><span class="icon-user icon"></span>
+                    <div class="text-box">
+                        <p>Профиль</p>
+                        <p>Перейти в профиль</p>
+                    </div>
+                </a></li>
+        </ul>
+    </div>
+</body>
+
+</html>
